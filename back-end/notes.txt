@@ -1,2 +1,8 @@
+Creating a Virtual Environment:
+`virtualenv -p python3 .venv`
+
 Activating the Virtual Environment:
 `source .venv/bin/activate`
+
+Installing dependencies:
+`pip install django graphene-django django-filter djangorestframework`
