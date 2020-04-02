@@ -6,3 +6,6 @@ Activating the Virtual Environment:
 
 Installing dependencies:
 `pip install django graphene-django django-filter djangorestframework`
+
+Creating a new django project:
+`django-admin startproject <name-of-project>`
