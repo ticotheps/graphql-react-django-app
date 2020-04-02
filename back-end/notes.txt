@@ -9,3 +9,6 @@ Installing dependencies:
 
 Creating a new django project:
 `django-admin startproject <name-of-project>`
+
+Creating a new django app:
+`django-admin startapp <name-of-app>`
