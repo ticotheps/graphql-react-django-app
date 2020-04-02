@@ -1,0 +1,2 @@
+Activating the Virtual Environment:
+`source .venv/bin/activate`
