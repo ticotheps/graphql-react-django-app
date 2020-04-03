@@ -5,7 +5,7 @@ from .resources.types import ResourceType
 
 
 class Query(ObjectType):
-    resources = DjangoConnectionField(ResourceType)
+    resources = DjangoConnectionField(ResourceType, filterset_class=ResourceFilter)
     resource = Field(ResourceType, id=Argument(ID, required=True))
     
     def resolve_resources(root, info, **kwargs):
