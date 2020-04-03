@@ -13,3 +13,5 @@ class Query(ObjectType):
     
     def resolve_resource(root, info, **kwargs):
         return Resource.objects.get(id=kwargs.get('id'))
+    
+schema = Schema(query=Query)
