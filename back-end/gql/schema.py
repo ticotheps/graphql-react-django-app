@@ -1,5 +1,5 @@
 from graphene import Argument, Field, ID, ObjectType, Schema
-from graphene_django import DjangoConnectionField
+from graphene_django.filter import DjangoFilterConnectionField
 from resources.models import Resource
 from .resources.types import ResourceType
 
